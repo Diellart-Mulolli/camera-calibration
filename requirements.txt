@@ -1,3 +1,14 @@
-numpy>=1.20.0
-opencv-python>=4.5.0
-matplotlib>=3.4.0
+# Core
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Optional (for 3D point cloud export)
+open3d>=0.17.0
+
+# Dev / testing
+pytest>=7.4.0

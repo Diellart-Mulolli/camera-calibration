@@ -1,33 +1,36 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
-
-# Distribution / packaging
+*.pyo
+*.pyd
+.Python
+*.egg-info/
 dist/
 build/
-*.egg-info/
-
-# Virtual environments
+.eggs/
 venv/
+.venv/
 env/
-ENV/
 
-# IDE files
-.idea/
+# Calibration outputs
+output/*.npz
+output/*.npy
+output/*.png
+output/*.txt
+
+# Dataset zips (keep extracted folders)
+datasets/*.zip
+
+# IDE
 .vscode/
+.idea/
 *.swp
 *.swo
 
-# Calibration images and output
-calibration_images/
-output/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# macOS
+# OS
 .DS_Store
-
-# Windows
 Thumbs.db
+
+# Large image files in stereo/ (optional, remove if you want to commit them)
+# stereo/**/*.png
+# stereo/**/*.jpg
